@@ -21,6 +21,14 @@ no windows o binário poderá ser executado usando o script runEXE.bat, o comand
 A pasta test contêm testes que podem ser executados com o comando
 julia runTheTests.jl
 
+Caso queira apagar a os arquivos compilados o comando 
+julia removeCompiled.jl
+
+
+
+
+Os arquivos novos arquivos devem ser colocados dentro de src
+Quando executável for produzido ele iniciará sua execução pela função julia_main definida em src/MyApp.jl
 
 
 

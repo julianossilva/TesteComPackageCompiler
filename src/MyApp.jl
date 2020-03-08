@@ -3,7 +3,6 @@ module MyApp
     # example.jl define algumas funções em um arquivo separado
     include("./example.jl")
 
-
     # Esta é a função pela qual o executável irá iniciar
     # tipo a função main em c/c++
     function julia_main()::Cint 
