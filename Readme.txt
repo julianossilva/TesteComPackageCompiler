@@ -1,0 +1,26 @@
+Instale as dependências executando o comando
+julia installDependencies.jl
+
+Instale novas dependências com o comando
+julia installNewPackage.jl
+(edite o arquivo installNewPackage.jl antes)
+
+remova dependências com o comando
+julia removePackage.jl
+(edite o arquivo removePackage.jl antes)
+
+compile o executável com o comando
+julia compile.jl
+(o comando demora)
+(o executável aparecerá em uma pasta chamada MyAppCompiled dentro de bin com o nome MyApp ou MyApp.exe)
+
+no windows o binário poderá ser executado usando o script runEXE.bat, o comando é:
+.\runEXE.bat
+(ou você pode entrar na pasta do executável executa-lo diretamente)
+
+A pasta test contêm testes que podem ser executados com o comando
+julia runTheTests.jl
+
+
+
+

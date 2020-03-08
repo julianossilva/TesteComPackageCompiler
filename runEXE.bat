@@ -1,0 +1,2 @@
+.\MyAppCompiled\bin\MyApp.exe
+
