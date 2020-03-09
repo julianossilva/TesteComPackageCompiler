@@ -26,9 +26,10 @@ julia removeCompiled.jl
 
 
 
-
+# Observações
 Os arquivos novos arquivos devem ser colocados dentro de src
 Quando executável for produzido ele iniciará sua execução pela função julia_main definida em src/MyApp.jl
 
+o PackageCompiler precisa de um compilador c/c++, no windows eu costumo usar o clang (https://clang.llvm.org/)
 
 

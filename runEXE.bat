@@ -1,2 +1,2 @@
-.\MyAppCompiled\bin\MyApp.exe
+.\MyAppCompiled\bin\MyApp.exe %*
 

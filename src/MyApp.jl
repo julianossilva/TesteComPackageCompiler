@@ -7,6 +7,9 @@ module MyApp
     # tipo a função main em c/c++
     function julia_main()::Cint 
 
+        # O executável pode receber argumentos através de ARGS, teste pela linha de comando
+        println("Args:", ARGS)
+
         # o seu código aqui
         sayHello() # sayHello foi definida dentro de example.jl
 
